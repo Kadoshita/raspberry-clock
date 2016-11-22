@@ -4,13 +4,23 @@
 	<meta charset="UTF-8">
 	<title>RaspberryPi Clock</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
 </head>
 <body>
 	<div id="clock">
 		<span id="date"></span><br>
 		<span id="time"></span>
 	</div>
+	<div class="today" id="weather-today">
+		<span class="weather-data">今日の天気<br><span id='today-weather'></span></span><br>
+		<span class="weather-data">予想最高気温<br><span id="today-tempmax"></span></span><br>
+		<span class="weather-data">予想最低気温<br><span id="today-tempmin"></span></span><br>
+		<!-- <span class="weather-data">3時間降水確率<br><span id="h3-rain"></span></span> -->
+		<span class="weather-data">今日の日没時刻<br><span id="today-sunset"></span></span><br>
+		<span id="today-icon"></span>
+	</div>
 
-	<script src="clock.js"></script>
+	<script src="js/clock.js"></script>
+	<script src="js/weather.js"></script>
 </body>
 </html>
