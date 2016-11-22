@@ -1,0 +1,17 @@
+#clock{
+	position: absolute;
+	left: 2px;
+	bottom: 2px;
+	border: solid 2px black;
+	width: 320px;
+	text-align: center;
+}
+#date{
+	width: 100%;
+	font-size: 48px;
+	border-bottom: solid 2px black;
+}
+#time{
+	width: 100%;
+	font-size: 64px;
+}
