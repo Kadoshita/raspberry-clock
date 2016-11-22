@@ -47,6 +47,8 @@ var getWeather=function(){
 	});
 };
 
+getWeather();
+
 setInterval(getWeather,3600*1000);
 
 function unixtime(utime){
