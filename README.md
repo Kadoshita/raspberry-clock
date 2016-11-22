@@ -1,0 +1,2 @@
+# raspberry-clock
+RaspberryPi用の3.2インチLCDのために作ったデジタルサイネージっぽいのもの
